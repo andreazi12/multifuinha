@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .buttons a {
+            text-decoration: none;
+            margin: 15px;
+            padding: 20px 30px;
+            background-color: #333;
+            color: white;
+            border-radius: 10px;
+            font-size: 1.5em;
+            transition: background-color 0.3s;
+            display: inline-block;
+            min-width: 200px;
+            text-align: center;
+        }
+        .buttons a:focus {
+            outline: 3px solid #fff;
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 1.2em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Filmes</h1>
+    </header>
+
+    <div class="buttons">
+        <a href="acao/acao.html" tabindex="1">Ação</a>
+        <a href="aventura/aventura.html" tabindex="2">Aventura</a>
+        <a href="infantil/infantil.html" tabindex="3">Infantil</a>
+    </div>
+
+    <div class="buttons">
+        <a href="drama/drama.html" tabindex="4">Drama</a>
+        <a href="terror/terror.html" tabindex="5">Terror</a>
+        <a href="comedia/comedia.html" tabindex="6">Comédia</a>
+    </div>
+
+    <div class="buttons">
+        <a href="romance/romance.html" tabindex="7">Romance</a>
+        <a href="faroeste/faroeste.html" tabindex="8">Faroeste</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Multimidia Filmes</p>
+    </footer>
+</body>
+</html>
